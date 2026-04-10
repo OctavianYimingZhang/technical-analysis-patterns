@@ -1,340 +1,346 @@
 ---
 name: technical-analysis
-description: 技术分析形态识别与交易决策 - 专注于牛旗突破、W底部突破、头肩底突破、破底翻（Spring）、月线过前高五种核心形态的识别与操作策略
+description: Pattern-based technical analysis and trade decision-making — focused on Bull Flag Breakout, W Bottom Breakout, Inverse Head & Shoulders Breakout, Spring (False Breakdown), and Monthly Breaking Previous High.
 ---
 
-# 技术分析形态识别与交易决策
+# Technical Analysis: Pattern Recognition & Trade Decisions
 
-基于《期货市场技术分析》（约翰·墨菲）、《日本蜡烛图技术》（史蒂夫·尼森）、《威科夫操盘法》（孟洪涛）三本经典著作的核心内容，结合实战图例总结的形态交易系统。
+A pattern-based trading system synthesized from three classic technical analysis books:
 
-## 核心原则
+- **Technical Analysis of the Futures Markets** (John J. Murphy)
+- **Japanese Candlestick Charting Techniques** (Steve Nison)
+- **Wyckoff Method: Trades About to Happen** (Edward Meng)
 
-### 多周期框架
-- **日线（核心）**：所有形态识别和交易执行均以日线为准
-- **周线（参考）**：用于确认趋势方向和支撑阻力的有效性
-- **月线（仅看过前高）**：仅在需要判断"月线过前高"时使用，牛旗等短周期形态不需要参考月线
+## Core Principles
 
-### 成交量规则
-- **仅在突破时关注成交量**：突破瞬间的量能是确认信号的关键
-- **非突破时段不需要分析成交量**：避免过度解读日常波动中的量能变化
-- **有效突破的量能标准**：突破当日成交量应明显高于近期（5-20日）平均成交量
+### Multi-Timeframe Framework
+- **Daily chart (core)**: All pattern identification and trade execution is based on the daily chart
+- **Weekly chart (reference)**: Used to confirm trend direction and validate support/resistance levels
+- **Monthly chart (only for previous-high breakouts)**: Only used when evaluating "monthly breaking previous high" — short-term patterns like bull flags do NOT require monthly chart reference
 
-### 供求关系核心（威科夫理论）
-- 价格涨跌的本质是供求关系不平衡
-- 突破时看成交量，是为了确认需求（买盘）是否真正超过供应（卖盘）
-- 假突破的本质是需求不足以吸收供应
+### Volume Rules
+- **Only check volume at the breakout moment**: Volume at the breakout candle is the key confirmation signal
+- **No volume analysis needed outside of breakouts**: Avoid over-reading volume during normal consolidation
+- **Valid breakout volume**: Breakout-day volume should be notably higher than recent (5-20 day) average volume
 
----
-
-## 形态一：牛旗突破（Bull Flag Breakout）
-
-### 形态定义
-上升趋势中的短暂回调整理，形成向下倾斜的平行通道（旗面），随后价格向上突破旗面上轨继续上涨。
-
-### 识别要素（日线）
-1. **旗杆**：突破前有一段快速、几乎垂直的上涨（旗杆），伴随递增的成交量
-2. **旗面**：价格进入向下或横向倾斜的窄幅通道，成交量逐步萎缩
-3. **持续时间**：旗面通常持续1-3周（5-15个交易日），不超过4周
-4. **回调幅度**：旗面回调幅度通常为旗杆涨幅的1/3至2/3
-5. **形态紧凑性**：旗面内蜡烛逐渐缩短，波动收窄
-
-### 突破确认
-- **突破信号**：日线收盘价突破旗面上轨
-- **成交量确认**：突破当日成交量明显放大（相比旗面整理期间）
-- **有效突破**：突破后1-2日应有阳线跟随（更高的高点、低点、收盘价）
-
-### 目标测算
-- **最小目标**：从突破点起算，涨幅等于旗杆长度
-- **保守目标**：旗杆长度的50%-75%
-
-### 止损设置
-- 止损设在旗面最低点下方
-
-### Murphy补充规则
-- 旗形被比喻为"降半旗"——出现在整个运动的中点附近
-- 完成后市场将重复前半段运动（即旗杆长度 = 后续涨幅）
-- 旗面倾斜方向必须与流行趋势相反（上升趋势中旗面向下倾斜）
-- 旗形 vs 三角旗形：旗形两条边线平行，三角旗形两条边线聚拢
-
-### 注意事项
-- 牛旗是日线短周期形态，**不需要参考月线过前高**
-- 旗面整理时间过长（>4周）可能转变为其他形态
-- 旗面回调超过旗杆的2/3时形态可靠性降低
+### Supply & Demand Core (Wyckoff Theory)
+- Price moves are fundamentally driven by supply/demand imbalances
+- Volume at breakout confirms whether demand (buying) truly exceeds supply (selling)
+- False breakouts occur when demand fails to absorb supply
 
 ---
 
-## 形态二：W底部突破（Double Bottom Breakout）
+## Pattern 1: Bull Flag Breakout
 
-### 形态定义
-价格在下跌后形成两个相近低点（W形），颈线（两底之间的反弹高点）被突破后确认反转。
+### Definition
+A brief pullback consolidation within an uptrend, forming a downward-sloping parallel channel (the flag), followed by an upward breakout continuing the prior advance.
 
-### 识别要素（日线）
-1. **第一个底（左底）**：下跌趋势中出现明显支撑，价格反弹
-2. **颈线**：第一次反弹的高点形成颈线（阻力水平线）
-3. **第二个底（右底）**：价格再次回落到第一个底附近
-   - 理想情况：右底略高于左底（显示需求渐强）
-   - 右底略低于左底但迅速反弹也可接受（Spring特征）
-4. **两底间距**：通常间隔1-3个月
-5. **形态对称性**：不要求完美对称，关注供求关系变化
+### Identification Criteria (Daily Chart)
+1. **Flagpole**: A sharp, nearly vertical advance preceding the flag, accompanied by rising volume
+2. **Flag body**: Price enters a narrow, downward- or sideways-sloping channel with progressively declining volume
+3. **Duration**: The flag typically lasts 1-3 weeks (5-15 trading days), no more than 4 weeks
+4. **Pullback depth**: The flag retraces 1/3 to 2/3 of the flagpole's advance
+5. **Tightening action**: Candles within the flag progressively shorten and volatility narrows
 
-### 突破确认
-- **突破信号**：日线收盘价有效突破颈线（必须等待收盘确认，日内穿越不算）
-- **成交量确认**：突破颈线当日成交量放大
-- **回测确认**：突破后常有回测颈线的动作，回测时成交量萎缩则确认有效
-- **过滤器**：3%穿越原则或双日穿越原则（连续两天收市于颈线之上）
+### Breakout Confirmation
+- **Breakout signal**: Daily close above the flag's upper boundary
+- **Volume confirmation**: Breakout-day volume expands notably versus the consolidation period
+- **Follow-through**: Bullish candles should follow within 1-2 days (higher highs, higher lows, higher closes)
 
-### 目标测算
-- **最小目标**：从颈线起算，涨幅等于颈线到底部的垂直距离
-- **替代方法**：测出第一条上升轨迹的幅度，从颈线突破点向上投射相同长度
+### Target Measurement
+- **Minimum target**: From the breakout point, project upward a distance equal to the flagpole length
+- **Conservative target**: 50%-75% of the flagpole length
 
-### 止损设置
-- 止损设在右底最低点下方
+### Stop-Loss Placement
+- Place the stop below the flag's lowest point
 
-### Murphy补充规则
-- 两底不必严格相同高度。右底略高于左底 = 正常（需求渐强）
-- 右底略低于左底后迅速反弹 = Spring特征，更强信号
-- 两底间距越长（至少1个月，最佳2-3个月）、高度越大 = 反转潜力越大
-- "双重底"术语常被滥用：价格从前低反弹是自然反应，必须等颈线真正被突破
+### Murphy's Supplementary Rules
+- Flags appear at the **midpoint** of the overall move ("half-mast" analogy)
+- After completion, the market repeats the first half of the move (flagpole length = subsequent advance)
+- The flag must slope **against** the prevailing trend (downward slope in an uptrend)
+- Flag vs. Pennant: flag has parallel boundaries; pennant has converging boundaries
 
-### 周线/月线参考
-- **周线**：确认W底所处位置是否在周线级别的支撑区域
-- **月线**：如果W底突破后月线同时突破前高，则信号更强
-
-### 威科夫视角
-- W底的左底对应"恐慌抛售"或"初次支撑"
-- 两底之间的反弹对应"自动反弹"
-- 右底对应"二次测试"——成功的二次测试（缩量、窄幅）确认熊市终止
-- 右底如果出现Spring（小幅跌破左底后迅速收回），是极强的买入信号
+### Key Notes
+- Bull flags are short-term daily patterns — **no monthly chart reference needed**
+- Flag duration exceeding 4 weeks may morph into a different pattern
+- Reliability declines if the pullback exceeds 2/3 of the flagpole
 
 ---
 
-## 形态三：头肩底突破（Inverse Head & Shoulders Breakout）
+## Pattern 2: W Bottom Breakout (Double Bottom)
 
-### 形态定义
-价格形成三个底部，中间最低（头部），两侧较高且大致对称（左肩、右肩），颈线被突破后确认反转。
+### Definition
+After a decline, price forms two lows at approximately the same level (W shape). The neckline (rally high between the two bottoms) is broken to confirm a reversal.
 
-### 识别要素（日线）
-1. **左肩**：下跌中出现反弹，形成第一个底。对应威科夫的"初次支撑"
-2. **头部**：价格再次下跌，跌破左肩低点形成更低的底。对应"恐慌抛售"
-3. **颈线**：左肩反弹高点与头部反弹高点的连线（可以是水平或略向上倾斜）
-4. **右肩**：价格第三次回落，但未跌破头部低点。对应"二次测试"
-   - 右肩底部高于头部底部（需求渐强的证据）
-   - 右肩成交量应小于头部成交量（供应在枯竭）
-5. **形态持续时间**：数周到数月
+### Identification Criteria (Daily Chart)
+1. **First bottom (left)**: A clear support area forms during a downtrend, triggering a rally
+2. **Neckline**: The rally high between the two bottoms creates a horizontal resistance level
+3. **Second bottom (right)**: Price declines again near the first bottom's level
+   - Ideal: right bottom slightly higher than left (shows strengthening demand)
+   - Right bottom slightly below left but with a swift rebound is also valid (Spring characteristic)
+4. **Spacing**: Typically 1-3 months between the two bottoms
+5. **Symmetry**: Perfect symmetry is not required — focus on supply/demand dynamics
 
-### 突破确认
-- **突破信号**：日线收盘价突破颈线
-- **成交量确认**：突破颈线时成交量**必须急剧膨胀**——底部突破的绝对关键条件
-- **回测确认**：底部反扑比顶部更常见，回测时缩量则确认有效
+### Breakout Confirmation
+- **Breakout signal**: Daily close above the neckline (must wait for the closing price — intraday penetration does not count)
+- **Volume confirmation**: Expanded volume on the neckline breakout day
+- **Pullback test**: A post-breakout pullback to the neckline on declining volume confirms validity
+- **Filters**: 3% penetration rule or two-day closing rule (two consecutive closes above neckline)
 
-### Murphy交易量序列（极为关键）
-- 头部下跌阶段：交易量比左肩有所增加（与顶部形态相反）
-- 右肩下跌：交易量**非常轻弱**（最重要的确认信号）
-- 颈线突破：成交量急剧膨胀（绝对必需）
-- 原则："市场因自重而下跌，但上涨需要买进推力"
+### Target Measurement
+- **Minimum target**: From the neckline, project upward the vertical distance from neckline to the bottom
+- **Alternative**: Measure the first upward leg's range, project the same distance from the breakout point
 
-### 目标测算
-- **方法一**：从头部最低点到颈线的垂直距离，从突破点向上投射
-- **方法二**：测出第一浪上升（头到右肩间反弹高点）的长度，从该点向上翻一番
+### Stop-Loss Placement
+- Place the stop below the right bottom's lowest point
 
-### 止损设置
-- 止损设在右肩最低点下方
+### Murphy's Supplementary Rules
+- The two bottoms do not need to be at exactly the same level. Right bottom slightly higher = normal (strengthening demand)
+- Right bottom slightly below left, followed by a quick snap-back = Spring characteristic, stronger signal
+- Wider spacing between bottoms (at least 1 month, ideally 2-3 months) and greater height = greater reversal potential
+- "Double bottom" is an overused term: a bounce from a prior low is a natural reaction at support — the pattern is NOT confirmed until the neckline is actually broken
 
-### 周线/月线参考
-- **周线**：确认头肩底形成在周线级别趋势的末端
-- **月线**：如果突破后月线同时过前高，则为大级别反转确认
+### Weekly / Monthly Reference
+- **Weekly**: Confirm the W bottom sits within a weekly-level support zone
+- **Monthly**: If the W bottom breakout coincides with a monthly close above a previous high, the signal is significantly stronger
 
-### 威科夫视角
-- 左肩 = 初次供应耗尽区域（初次支撑）
-- 头部 = 恐慌抛售（天量长阴后反弹）
-- 头部到右肩之间的反弹 = 自动反弹
-- 右肩 = 二次测试（关键：成交量和蜡烛都必须缩小）
-- 颈线突破 = SOS（强势出现）或 JOC（跳离震荡区）
-- 颈线突破后的缩量回测 = 最佳进场点（LPS）
-
----
-
-## 形态四：破底翻 / Spring（False Breakdown Reversal）
-
-### 形态定义
-价格小幅跌破已建立的支撑位后迅速反弹回到支撑上方。这是威科夫理论中的核心交易信号，本质是CM（主力机构）测试市场供应是否枯竭的手段。
-
-### 识别要素（日线）
-1. **前提条件**：存在已建立的明确支撑（震荡区底部、前低点、需求区）
-2. **突破行为**：价格跌破支撑
-3. **关键判断**：突破时的成交量和蜡烛大小决定Spring类型
-
-### Spring三种类型
-
-#### 第一种：小量小蜡烛Spring（最佳，可直接进场）
-- 突破支撑时蜡烛和成交量都很小
-- 说明支撑位供应已枯竭（没有大量卖单）
-- **操作**：直接进场买入
-
-#### 第二种：中等量Spring（需等二次测试）
-- 突破时成交量略有扩大，蜡烛中等
-- 说明有一定供应存在，但不致命
-- **操作**：等待二次测试。测试过程成交量和蜡烛大幅缩小则进场
-
-#### 第三种：大量大蜡烛Spring（即震仓，高风险）
-- 突破时成交量和蜡烛都很大，深度穿透支撑
-- 说明供应充足，但可能是CM制造的终极震仓
-- **操作**：必须等待二次测试确认供应枯竭；如果迅速反弹（SOS），可在回测时进场
-
-### 特殊Spring：收盘位置判断
-- 突破支撑后，如果蜡烛收在50%以上（下影线形态），即使成交量大，也偏向看涨
-- 收盘位置说明需求在收盘前吸收了供应
-
-### 突破确认（Spring成功的标志）
-- Spring后必须出现：持续的更高高点、更高低点、更高收盘价
-- 成交量应随价格上涨稳定递增（不是暴增）
-- 如果Spring后反弹无力（无量或蜡烛缩小），Spring失败
-
-### 止损设置
-- 止损设在Spring最低点下方
-
-### 核心注意事项
-- **牛市背景中的Spring成功率最高**——这是铁律
-- **熊市中的Spring是陷阱**，不能用来抄底
-- 连续失败的Spring是牛市结束的预警
-- 卖盘控制的背景下，Spring失败概率极高
-- Spring本质是测试供应，进场后必须看到需求跟随
-
-### 破底翻 vs 震仓的区别
-| 特征 | Spring（破底翻） | 终极震仓 |
-|------|-----------------|---------|
-| 突破幅度 | 小幅突破支撑 | 深度穿透所有支撑 |
-| 成交量 | 小到中等 | 天量 |
-| 发生位置 | 震荡区/回调底部 | 吸筹末期 |
-| 目的 | 测试供应、清除浮动筹码 | 最后一击，迫使最坚定持仓者出局 |
-| 操作 | 小量可直接进场 | 必须等二次测试 |
+### Wyckoff Perspective
+- Left bottom corresponds to the "Selling Climax" (SC) or "Preliminary Support" (PS)
+- The rally between bottoms corresponds to the "Automatic Rally" (AR)
+- Right bottom corresponds to the "Secondary Test" (ST) — a successful ST (declining volume, narrow range) confirms the downtrend has stopped
+- If the right bottom produces a Spring (briefly breaks below the left bottom then snaps back), it is an extremely strong buy signal
 
 ---
 
-## 形态五：月线过前高（Monthly Breaking Previous High）
+## Pattern 3: Inverse Head & Shoulders Breakout
 
-### 形态定义
-月线级别上，价格突破前期重要高点，确认长周期上升趋势的延续或开启。
+### Definition
+Price forms three troughs — the middle one deepest (the head), flanked by two shallower, roughly symmetrical troughs (left and right shoulders). A neckline break confirms the reversal.
 
-### 识别要素（月线）
-1. **前高定义**：月线图上的前期显著高点（通常是近6-24个月内的最高点）
-2. **突破方式**：月线收盘价有效站上前高
-3. **成交量确认**：突破当月成交量应有所放大
+### Identification Criteria (Daily Chart)
+1. **Left shoulder**: A rally within a downtrend forms the first trough. Corresponds to Wyckoff's "Preliminary Support"
+2. **Head**: Price falls again, breaking below the left shoulder's low to form a deeper trough. Corresponds to the "Selling Climax"
+3. **Neckline**: The line connecting the rally highs between left shoulder-to-head and head-to-right shoulder (can be horizontal or slightly upward-sloping)
+4. **Right shoulder**: Price drops a third time but fails to reach the head's low. Corresponds to the "Secondary Test"
+   - Right shoulder bottom higher than head bottom (evidence of strengthening demand)
+   - Right shoulder volume should be less than head volume (supply is drying up)
+5. **Duration**: Several weeks to several months
 
-### 突破确认
-- **有效突破**：月线收盘价在前高之上（仅看收盘价，不看影线刺穿）
-- **回测确认**：突破后如果回测前高位置获得支撑（前阻变前支），突破更可靠
+### Breakout Confirmation
+- **Breakout signal**: Daily close above the neckline
+- **Volume confirmation**: Volume **must surge dramatically** at the neckline break — this is the absolute key condition for bottom breakouts
+- **Pullback test**: Throwbacks are more common at bottoms than tops; declining volume on the throwback confirms validity
 
-### 使用场景
-- 这是一个**独立的月线级别信号**
-- 当日线形态（W底、头肩底）突破后，如果月线同时过前高，形成共振，信号极强
-- **牛旗突破不需要参考此形态**（牛旗是短周期日线形态）
+### Murphy's Volume Sequence (Critical)
+- Head decline phase: volume somewhat higher than the left shoulder (opposite of the topping pattern)
+- Right shoulder decline: volume is **very light** (the single most important confirmation signal)
+- Neckline breakout: volume surges dramatically (absolutely essential)
+- Principle: "Markets fall under their own weight, but rallies require buying pressure"
 
-### 操作要点
-- 月线过前高后，日线回调是买入机会
-- 月线过前高失败（假突破后跌回）是风险信号
-- 配合周线趋势方向判断突破质量
+### Target Measurement
+- **Method 1**: Measure the vertical distance from the head's low to the neckline; project that distance upward from the breakout point
+- **Method 2**: Measure the first upward leg (head low to the rally high between head and right shoulder); double that distance from the rally high
 
----
+### Stop-Loss Placement
+- Place the stop below the right shoulder's lowest point
 
-## 综合决策流程
+### Weekly / Monthly Reference
+- **Weekly**: Confirm the inverse H&S forms at the tail end of a weekly-level downtrend
+- **Monthly**: If the breakout coincides with a monthly close above a previous high, it is a large-scale reversal confirmation
 
-### 步骤一：确定市场背景（日线+周线）
-1. 当前日线趋势方向（上升、下降、震荡）
-2. 周线趋势提供大方向参考
-3. 识别当前所处的威科夫阶段（吸筹、上涨、派发、下跌）
-
-### 步骤二：识别形态（日线）
-按以下优先级识别：
-1. 是否存在破底翻/Spring——最优先，因为它提供最低风险进场点
-2. 是否存在牛旗——上升趋势中的续涨信号
-3. 是否存在W底或头肩底——底部反转信号
-4. 月线是否过前高——长周期确认
-
-### 步骤三：等待突破+量能确认
-- 突破日观察成交量是否放大
-- 不要提前进场，等突破确认
-
-### 步骤四：进场与风控
-- **进场点**：突破确认后的回测缩量位置（最低风险）
-- **止损**：形态关键低点下方
-- **目标**：按形态测算目标
-- **风控铁律**：进场后必须看到需求跟随（持续阳线+递增量），否则离场
+### Wyckoff Perspective
+- Left shoulder = initial area of supply exhaustion (Preliminary Support)
+- Head = Selling Climax (high-volume long bearish candle followed by a rally)
+- Rally between head and right shoulder = Automatic Rally
+- Right shoulder = Secondary Test (critical: both volume and candle range must contract)
+- Neckline breakout = Sign of Strength (SOS) or Jump over the Creek (JOC)
+- Low-volume pullback to the neckline after breakout = best entry point (Last Point of Support / LPS)
 
 ---
 
-## 形态失效与风控
+## Pattern 4: Spring / False Breakdown Reversal (Wyckoff)
 
-### 通用失效信号
-- 突破后无跟随（无量、无新高）
-- 突破后出现放量阴线（供应扩大）
-- 成交量模式异常（突破无量或整理放量）
+### Definition
+Price briefly breaks below an established support level then quickly snaps back above it. This is a core Wyckoff trading signal — essentially the Composite Man (CM / institutional operators) testing whether supply has been exhausted.
 
-### 各形态特定失效条件
-- **牛旗**：旗面整理超过4周；回调超过旗杆2/3；突破后无量
-- **W底**：右底跌破左底且无法收回（非Spring）；颈线突破后放量跌回
-- **头肩底**：右肩成交量大于头部（供应未枯竭）；颈线突破后放量回落到颈线下方
-- **破底翻**：Spring后反弹无力（无需求）；连续失败的Spring（牛市结束警告）
-- **月线过前高**：突破后次月收回前高下方
+### Identification Criteria (Daily Chart)
+1. **Prerequisite**: A well-established support level must exist (trading range floor, prior low, demand zone)
+2. **Breakdown**: Price breaks below the support
+3. **Key judgment**: Volume and candle size at the breakdown determine the Spring type
 
-### 威科夫风控原则
-1. 进场的理论根据必须成立（供求关系确认）
-2. 进场后市场行为否定你的判断→立即离场
-3. 不要用希望和情绪替代市场行为的判断
-4. 在震荡区内不交易，等待右手边的SOS或SOW
+### Three Types of Spring
+
+#### Type 1: Low-Volume, Small-Candle Spring (Best — enter immediately)
+- Both candle range and volume are small at the breakdown
+- Indicates supply at the support level is exhausted (no significant sell orders remain)
+- **Action**: Enter long immediately
+
+#### Type 2: Moderate-Volume Spring (Wait for secondary test)
+- Slightly expanded volume and moderate candle at the breakdown
+- Some supply exists but is not overwhelming
+- **Action**: Wait for a secondary test. If the test shows dramatically reduced volume and range, enter
+
+#### Type 3: High-Volume, Large-Candle Spring (Shakeout — high risk)
+- Both volume and candle range are large, deeply penetrating support
+- Supply is heavy, but this may be an institutional terminal shakeout
+- **Action**: Must wait for a secondary test confirming supply exhaustion. If a rapid rally (SOS) follows, enter on the pullback test
+
+### Special Spring: Closing Position Rule
+- If the breakdown candle closes above its 50% midpoint (lower shadow / hammer shape), even with high volume, it leans bullish
+- The closing position shows demand absorbed supply before the close
+
+### Confirmation (Signs of a Successful Spring)
+- After the Spring, price must produce: consecutively higher highs, higher lows, and higher closes
+- Volume should increase steadily (not spike) as price rises
+- If the post-Spring rally is weak (no volume, shrinking candles), the Spring has failed
+
+### Stop-Loss Placement
+- Place the stop below the Spring's lowest point
+
+### Critical Rules
+- **Springs have the highest success rate in bullish contexts** — this is an iron rule
+- **Springs in downtrends are traps** — do not use them to bottom-fish
+- Consecutive failed Springs are a warning that the uptrend is ending
+- In a supply-dominated environment, Spring failure probability is very high
+- A Spring is fundamentally a supply test — after entry, you must see demand follow through
+
+### Spring vs. Terminal Shakeout
+
+| Feature | Spring | Terminal Shakeout |
+|---------|--------|-------------------|
+| Penetration depth | Slight break below support | Deep penetration through all support levels |
+| Volume | Low to moderate | Extremely high |
+| Location | Trading range floor / pullback low | Late-stage accumulation |
+| Purpose | Test supply, clear floating supply | Final blow to force out the most committed holders |
+| Action | Low-volume type can be entered directly | Must wait for secondary test |
 
 ---
 
-## 蜡烛图辅助确认（尼森理论）
+## Pattern 5: Monthly Breaking Previous High
 
-在突破点位置，以下蜡烛形态可增强信号：
+### Definition
+On the monthly chart, price breaks above a significant prior high, confirming the continuation or initiation of a long-term uptrend.
 
-### 看涨确认蜡烛
-- **锤子线**：长下影线，小实体在顶部——底部反转信号
-- **看涨吞没**：阳线完全覆盖前一日阴线——需求压倒供应
-- **启明星**：三蜡烛组合（长阴+小实体+长阳）——底部反转
-- **穿刺线**：阳线收盘超过前日阴线50%以上——需求进入
+### Identification Criteria (Monthly Chart)
+1. **Previous high**: A significant peak on the monthly chart (typically the highest point within the last 6-24 months)
+2. **Breakout method**: Monthly closing price above the previous high
+3. **Volume confirmation**: Breakout-month volume should be somewhat elevated
 
-### 在各形态中的应用
-- W底右底出现锤子线→增强反转信号
-- Spring位置出现看涨吞没→确认需求强劲
-- 头肩底右肩底部出现启明星→增强买入信号
-- 牛旗突破日为看涨吞没→突破可靠性增强
+### Breakout Confirmation
+- **Valid breakout**: Monthly close above the previous high (only the closing price counts — intraday/wick spikes do not)
+- **Pullback test**: If price retests the previous high and finds support (prior resistance becomes support), the breakout is more reliable
 
----
+### Use Cases
+- This is a **standalone monthly-level signal**
+- When a daily pattern (W bottom, inverse H&S) breaks out and the monthly chart simultaneously clears a previous high, the resonance makes the signal extremely strong
+- **Bull flag breakouts do NOT need this reference** (bull flags are short-term daily patterns)
 
-## 资金管理（墨菲原则）
-
-### 头寸规模
-- 单笔交易风险不超过总资本的 **5%**
-- 单个市场总投入不超过总资本的 **10-15%**
-- 总投资额不超过全部资本的 **50%**
-
-### 报偿-风险比
-- 最低要求 **3:1**（潜在利润至少是潜在亏损的3倍）
-- 结合形态测算目标和止损位置计算
-
-### 加仓原则
-- 金字塔式加仓：每次新增头寸小于前一次
-- **只在盈利头寸上加仓，绝不在亏损头寸上加仓**
-- 加仓后止损移至盈亏平衡点或以上
+### Operating Guidelines
+- After a monthly breakout above the previous high, daily pullbacks are buying opportunities
+- A failed monthly breakout (closing back below the previous high) is a risk signal
+- Combine with weekly trend direction to assess breakout quality
 
 ---
 
-## 术语速查
+## Integrated Decision Process
 
-| 术语 | 英文 | 含义 |
-|------|------|------|
-| CM | Composite Man | 主力机构 |
-| Spring | Spring | 弹簧效应/破底翻 |
-| SOS | Sign of Strength | 强势出现 |
-| SOW | Sign of Weakness | 弱势出现 |
-| JOC | Jump over Creek | 跳离震荡区 |
-| UT | Upthrust | 上冲回落 |
-| SOT | Shortening of Thrust | 突破幅度缩小 |
-| LPS | Last Point of Support | 最后支撑点（回测进场点） |
-| LPSY | Last Point of Supply | 最后派发点（做空进场点） |
-| BC | Buying Climax | 抢购高潮 |
-| SC | Selling Climax | 恐慌抛售 |
-| AR | Automatic Rally/Reaction | 自动反弹/回落 |
-| ST | Secondary Test | 二次测试 |
+### Step 1: Establish Market Context (Daily + Weekly)
+1. Determine current daily trend direction (up, down, range-bound)
+2. Weekly trend provides the broader directional context
+3. Identify the current Wyckoff phase (accumulation, markup, distribution, markdown)
+
+### Step 2: Identify Patterns (Daily Chart)
+Prioritize in this order:
+1. Is there a Spring / false breakdown? — Highest priority, offers the lowest-risk entry
+2. Is there a bull flag? — Continuation signal within an uptrend
+3. Is there a W bottom or inverse H&S? — Bottom reversal signal
+4. Is the monthly chart breaking a previous high? — Long-term confirmation
+
+### Step 3: Wait for Breakout + Volume Confirmation
+- Observe volume on the breakout day
+- Do not enter prematurely — wait for the breakout to be confirmed
+
+### Step 4: Entry & Risk Management
+- **Entry point**: The low-volume pullback test after the confirmed breakout (lowest risk)
+- **Stop-loss**: Below the pattern's key low
+- **Target**: Based on pattern measurement rules
+- **Iron rule**: After entry, you must see demand follow through (consecutive bullish candles + steadily rising volume) — otherwise, exit
+
+---
+
+## Pattern Failure & Risk Management
+
+### Universal Failure Signals
+- No follow-through after breakout (no volume, no new high)
+- Bearish high-volume candle appears after breakout (supply expanding)
+- Abnormal volume pattern (no volume on breakout, or heavy volume during consolidation)
+
+### Pattern-Specific Failure Conditions
+- **Bull flag**: Consolidation exceeds 4 weeks; pullback exceeds 2/3 of flagpole; no volume on breakout
+- **W bottom**: Right bottom breaks below left bottom and cannot recover (not a Spring); neckline breaks then falls back on heavy volume
+- **Inverse H&S**: Right shoulder volume exceeds head volume (supply not exhausted); neckline breaks then falls back below on heavy volume
+- **Spring**: Post-Spring rally is weak (no demand); consecutive failed Springs (uptrend ending warning)
+- **Monthly breakout**: Following month closes back below the previous high
+
+### Wyckoff Risk Management Principles
+1. The theoretical basis for the trade must be established (supply/demand confirmation)
+2. If market action negates your thesis after entry -> exit immediately
+3. Do not substitute hope or emotion for market behavior
+4. Do not trade inside a trading range — wait for SOS or SOW on the right-hand side
+
+---
+
+## Candlestick Confirmation (Nison)
+
+At breakout points, the following candlestick patterns strengthen the signal:
+
+### Bullish Confirmation Candles
+- **Hammer**: Long lower shadow, small real body near the top — bottom reversal signal
+- **Bullish Engulfing**: Bullish candle completely engulfs the prior bearish candle — demand overwhelms supply
+- **Morning Star**: Three-candle combination (long bearish + small body + long bullish) — bottom reversal
+- **Piercing Line**: Bullish candle closes above the midpoint of the prior bearish candle — demand entering
+
+### Application to Each Pattern
+- Hammer at the W bottom's right low -> strengthens reversal signal
+- Bullish engulfing at the Spring location -> confirms strong demand
+- Morning star at the inverse H&S right shoulder low -> strengthens buy signal
+- Bullish engulfing on the bull flag breakout day -> increases breakout reliability
+
+---
+
+## Money Management (Murphy's Principles)
+
+### Position Sizing
+- Risk per trade: no more than **5%** of total capital
+- Exposure per market: no more than **10-15%** of total capital
+- Total invested capital: no more than **50%** of total capital
+
+### Reward-to-Risk Ratio
+- Minimum requirement: **3:1** (potential profit must be at least 3x potential loss)
+- Calculate using the pattern's measured target and the stop-loss distance
+
+### Adding to Positions
+- Pyramid style: each addition is smaller than the previous one
+- **Only add to winning positions — never add to losing positions**
+- After adding, move the stop to breakeven or above
+
+---
+
+## Glossary
+
+| Abbreviation | Full Name | Description |
+|--------------|-----------|-------------|
+| CM | Composite Man | Institutional operators / smart money |
+| Spring | Spring | False breakdown reversal (Wyckoff) |
+| SOS | Sign of Strength | Demand takes control; often a strong rally breaking out of a range |
+| SOW | Sign of Weakness | Supply takes control; often a sharp decline breaking support |
+| JOC | Jump over the Creek | Price leaps above the trading range's supply zone |
+| UT | Upthrust | False upward breakout that reverses back into the range |
+| SOT | Shortening of Thrust | Diminishing breakout distance — trend exhaustion signal |
+| LPS | Last Point of Support | Low-risk pullback entry after an SOS |
+| LPSY | Last Point of Supply | Low-risk short entry after an SOW |
+| BC | Buying Climax | Frenzied public buying at the top — supply floods in |
+| SC | Selling Climax | Panic selling at the bottom — demand absorbs supply |
+| AR | Automatic Rally / Reaction | Natural bounce (bottom) or natural pullback (top) after a climax |
+| ST | Secondary Test | Retest of the climax area to confirm supply/demand shift |
+| PS | Preliminary Support | First sign of demand during a downtrend |
