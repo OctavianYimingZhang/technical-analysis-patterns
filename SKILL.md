@@ -242,6 +242,170 @@ On the monthly chart, price breaks above a significant prior high, confirming th
 
 ---
 
+## Pattern 6: Cup-and-Handle Breakout
+
+### Definition
+A rounded bottom (cup) followed by a short consolidation (handle), then an upward breakout. This pattern indicates a gradual shift from distribution to accumulation, followed by a continuation breakout.
+
+### Identification Criteria (Daily/Weekly Chart)
+1. **Cup**: A rounded, U-shaped bottom forming over 1-6 months. V-shaped bottoms are less reliable
+2. **Cup depth**: Typically retraces 12-33% of the prior advance (deeper cups up to 50% can work but are riskier)
+3. **Handle**: A short pullback forming in the upper third of the cup, lasting 1-4 weeks
+4. **Handle characteristics**: Slight downward drift on declining volume; handle should NOT retrace more than 50% of the cup's depth
+5. **Volume**: Declining through the cup's right side; very light during handle formation
+
+### Breakout Confirmation
+- **Breakout signal**: Daily close above the handle's upper boundary (resistance line)
+- **Volume confirmation**: Volume must expand significantly on the breakout day
+- **Alternative entry**: If the handle forms a bull flag, apply bull flag entry rules
+
+### Target Measurement
+- **Minimum target**: Cup depth (distance from cup rim to cup bottom) projected upward from the breakout point
+- **Conservative target**: 50-75% of cup depth
+
+### Stop-Loss Placement
+- Place the stop below the handle's lowest point
+
+### Key Notes
+- The cup-and-handle is a continuation pattern — it works best in established uptrends
+- Cup rims should be approximately equal in height (left and right sides)
+- Weekly cup-and-handle patterns produce larger, more reliable moves than daily patterns
+- Volume pattern is critical: declining through cup formation, light in handle, surge at breakout
+
+---
+
+## Pattern 7: Descending Wedge Breakout (Falling Wedge)
+
+### Definition
+Two converging downward-sloping trendlines containing price action. Despite the downward slope, this is typically a bullish pattern — a controlled descent that resolves with an upward breakout.
+
+### Identification Criteria (Daily/Weekly Chart)
+1. **Upper boundary**: Connects successive lower highs (resistance line slopes down)
+2. **Lower boundary**: Connects successive lower lows (support line slopes down, but less steeply)
+3. **Convergence**: The two lines must converge — the range narrows over time
+4. **Duration**: Typically 3 weeks to 3 months on daily charts; longer on weekly charts
+5. **Volume**: Progressively declining during the wedge formation
+
+### Breakout Confirmation
+- **Breakout signal**: Daily close above the upper boundary of the wedge
+- **Volume confirmation**: Notable volume expansion on the breakout day
+- **Pullback test**: A throwback to the broken upper boundary on declining volume confirms
+
+### Target Measurement
+- **Minimum target**: The widest part of the wedge (height at entry) projected upward from the breakout point
+- **Alternative**: If the wedge is a correction within an uptrend, the target equals the prior advance's length
+
+### Stop-Loss Placement
+- Place the stop below the last swing low within the wedge
+
+### Descending Wedge vs Descending Triangle
+| Feature | Descending Wedge (Bullish) | Descending Triangle (Bearish) |
+|---------|---------------------------|------------------------------|
+| Support line | Slopes downward | Horizontal (flat) |
+| Resolution | Upward breakout (typically) | Downward breakdown (typically) |
+| Volume | Declining throughout | Declining, then expanding on breakdown |
+
+### Weekly/Monthly Reference
+- Weekly descending wedges often mark the end of multi-month corrections
+- Monthly breakout from a descending wedge is a powerful long-term reversal signal
+- If the wedge breakout coincides with a monthly close above a previous high, the signal is significantly stronger
+
+---
+
+## Pattern 8: Converging/Symmetrical Triangle
+
+### Definition
+Two converging trendlines — one descending from lower highs, one ascending from higher lows — forming a coiling price pattern. This is a neutral pattern that breaks in the direction of the prevailing trend.
+
+### Identification Criteria (Daily Chart)
+1. **Upper boundary**: At least two lower highs
+2. **Lower boundary**: At least two higher lows
+3. **Convergence**: Lines converge toward an apex
+4. **Duration**: Typically 1-3 months; breakout usually occurs between 50-75% of the way to the apex
+5. **Volume**: Progressively declining during formation
+
+### Breakout Confirmation
+- **Breakout signal**: Daily close beyond either boundary with expanded volume
+- **Direction bias**: In an uptrend, expect upward breakout; in a downtrend, expect downward
+- **Timing**: Breakouts occurring after 75% of the way to the apex are less reliable
+
+### Target Measurement
+- **Minimum target**: Height of the triangle (widest part) projected from the breakout point
+
+### Stop-Loss Placement
+- Place the stop on the other side of the triangle from the breakout direction
+
+---
+
+## Output Format
+
+When presenting technical analysis, use this structured format:
+
+```
+### Market Environment
+| Dimension | Direction | Description |
+|-----------|-----------|-------------|
+| Daily Trend | uptrend/downtrend/sideways | Description with evidence |
+| Weekly Trend | uptrend/downtrend/sideways | Description with evidence |
+| Wyckoff Phase | accumulation/markup/distribution/markdown | Phase with evidence |
+| Trend Maturity | early/middle/late | Assessment of how far the trend has progressed |
+
+### Pattern Identification
+Primary Pattern: [Pattern Name] — [Status: forming/confirmed/failed]
+[Description of pattern elements with specific price levels]
+
+### Breakout + Volume Confirmation Status
+| Pattern | Breakout Status | Volume | Assessment |
+|---------|----------------|--------|------------|
+| [Name] | confirmed/pending/failed | expanded/declining/neutral | [one-liner] |
+
+### Key Price Levels
+| Type | Price Level | Significance |
+|------|------------|--------------|
+| Immediate Support | $XX | Description |
+| Strong Support | $XX | Description |
+| Major Support | $XX | Description |
+| Immediate Resistance | $XX | Description |
+| Major Resistance | $XX | Description |
+
+### Wyckoff Phase Analysis
+| Element | Observation |
+|---------|-------------|
+| [Wyckoff element] | Evidence from price/volume action |
+| Current Phase | [Phase name] with confidence level |
+
+### Comprehensive Assessment
+| Field | Value |
+|-------|-------|
+| Technical Posture | bullish/cautiously_bullish/neutral/cautiously_bearish/bearish |
+| Trend-Volume Alignment | aligned/divergent |
+| Phase-Trend Consistency | consistent/inconsistent |
+| Key Inflection Point | $XX — [rationale] |
+| Candlestick Signal | [strongest pattern and location] |
+```
+
+---
+
+## Technical-Fundamental Resonance
+
+When technical analysis is performed alongside fundamental analysis, assess whether technical signals CONFIRM or CONTRADICT fundamental conclusions:
+
+### Resonance Assessment
+| Dimension | Technical Signal | Fundamental Signal | Alignment |
+|-----------|-----------------|-------------------|-----------|
+| Direction | bullish/bearish pattern | positive/negative thesis | aligned/divergent |
+| Timing | breakout imminent/confirmed | catalyst approaching | synchronized/disconnected |
+| Magnitude | pattern target $XX (+XX%) | fair value $XX (+XX%) | consistent/inconsistent |
+
+### Resonance Classification
+- **Strong Resonance**: Technical breakout aligns with fundamental catalyst (e.g., W bottom breakout on earnings beat) — HIGH CONFIDENCE
+- **Moderate Resonance**: Technical is neutral while fundamental is positive (or vice versa) — MEDIUM CONFIDENCE
+- **Divergence**: Technical bearish while fundamental bullish (or vice versa) — CAUTION, investigate which signal is leading
+
+Hard rule: When technical and fundamental signals diverge significantly, the divergence itself is the most important signal — it requires investigation, not automatic resolution.
+
+---
+
 ## Integrated Decision Process
 
 ### Step 1: Establish Market Context (Daily + Weekly)
