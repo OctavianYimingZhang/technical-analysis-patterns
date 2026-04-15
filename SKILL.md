@@ -1,9 +1,72 @@
 ---
 name: technical-analysis
-description: Pattern-based technical analysis and trade decision-making — focused on Bull Flag Breakout, W Bottom Breakout, Inverse Head & Shoulders Breakout, Spring (False Breakdown), and Monthly Breaking Previous High.
+description: >
+  Pattern-based technical analysis and trade decision-making — focused on Bull Flag
+  Breakout, W Bottom Breakout, Inverse Head & Shoulders Breakout, Spring, Cup & Handle,
+  Descending Wedge, and Monthly Breaking Previous High. Two output modes: (1) standalone
+  detailed pattern analysis, (2) report-embed mode producing a 150-200 word block + one
+  small price-level table + mandatory trade plan for the stock-research-report orchestrator.
+triggers:
+  - technical analysis
+  - chart pattern
+  - trade decision
+  - Wyckoff
+  - 技术分析
+  - 形态分析
+  - pattern recognition
 ---
 
 # Technical Analysis: Pattern Recognition & Trade Decisions
+
+## Output Modes
+
+This skill has **two output modes**:
+
+### Mode 1: Standalone Detailed Analysis (Default)
+The full pattern-by-pattern detailed analysis below. Use when the user directly asks for a technical review of a ticker.
+
+### Mode 2: Report-Embed Mode (When Called by stock-research-report Orchestrator)
+A compact, 150-200 word block + one small price-level table + **mandatory trade plan**. This is what gets woven into the 技术分析 section of the final analyst report.
+
+**Report-Embed Mode output template:**
+
+```
+## 技术分析
+
+[Paragraph 1 — 50-80 words]
+从技术面看，[TICKER] 目前处于 [primary pattern, plain language — 例如"W 底形成右底，颈线在 $65"].
+月线 [趋势], 周线 [趋势], 日线 [趋势]. [Volume confirmation status in one phrase].
+
+[Paragraph 2 — 50-80 words]
+[关键位判断]. 当前若 [scenario trigger] , 可能 [result]. [One sentence on
+technical-fundamental alignment: "技术面与基本面 [aligned / divergent],
+[one-sentence reason]".]
+
+| 位置 | 价位 | 说明 |
+|------|------|------|
+| 即时阻力 | $XX | [brief reason] |
+| 主要阻力 | $XX | [brief reason] |
+| 强支撑 | $XX | [brief reason] |
+| 关键支撑 | $XX | [thesis invalidation if broken] |
+
+交易计划:
+- 入场区间: $X - $Y（[reason]）
+- 止损位: $Z（对应 [what invalidates]）
+- 第一止盈位: $A（[method]）
+- 第二止盈位: $B（[method]）
+```
+
+**Report-Embed Rules:**
+1. **NO Wyckoff vocabulary in the output.** Translate to plain Chinese: 投降 / 反弹 / 回测 / 突破 / 上升趋势. "Spring", "SOS", "LPS", "Markup" only exist in the analyst's private reasoning — the reader sees plain Chinese.
+2. **NO multi-subsection format** ("形态识别 / 突破成交量确认 / 关键价位 / Wyckoff / 综合判断"). That's Mode 1, not Mode 2.
+3. **ALWAYS output a trade plan** (entry / stop / TP1 / TP2). If you cannot identify entry/stop/targets, state "当前无明确入场点，建议观望" and give the next observable event.
+4. **Technical-fundamental alignment** must be explicitly stated: aligned, divergent, or neutral. This is the GLUE between the technical and fundamental chapters.
+5. **Cap at 150-200 words total** (excluding the trade plan bullets).
+6. **Price-level table has max 4 rows.**
+
+---
+
+# Standalone Mode: Full Pattern Recognition & Trade Decisions
 
 A pattern-based trading system synthesized from three classic technical analysis books:
 
