@@ -63,6 +63,16 @@ technical-fundamental alignment: "技术面与基本面 [aligned / divergent],
 4. **Technical-fundamental alignment** must be explicitly stated: aligned, divergent, or neutral. This is the GLUE between the technical and fundamental chapters.
 5. **Cap at 150-200 words total** (excluding the trade plan bullets).
 6. **Price-level table has max 4 rows.**
+7. **MANDATORY: Event-to-price linkage sentence.** The technical section MUST include at least one explicit "catalyst → price target" link in this format:
+
+   > "若 [具体催化剂] 在 [时间窗口] 内触发，预计股价在 [N 周] 内向 [$X] 运动，依据是 [技术结构 / 历史模式]。"
+
+   Real analyst examples:
+   - TER: "26 年，27 年，2 年的时间，EPS 增长 2 倍。考虑到过去十年公司的平均 PE 是 29 倍，对应下图大约价格是 110。"
+   - UAMY: "周线涨幅满足在 22 的位置，上 20 就是我们止盈离场的位置。止损在 8.6 下方。"
+   - TSEM: "若 Q1 硅光子订单确认，预计股价 4-6 周内向 $80-90 运动，技术面已形成 W 底突破。"
+
+   This converts technical analysis from description to decision tool. Without this linkage, the section is just chart commentary — useless to a trader.
 
 ---
 
