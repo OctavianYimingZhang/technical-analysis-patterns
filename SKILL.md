@@ -63,7 +63,9 @@ technical-fundamental alignment: "技术面与基本面 [aligned / divergent],
 4. **Technical-fundamental alignment** must be explicitly stated: aligned, divergent, or neutral. This is the GLUE between the technical and fundamental chapters.
 5. **Cap at 150-200 words total** (excluding the trade plan bullets).
 6. **Price-level table has max 4 rows.**
-7. **MANDATORY: Event-to-price linkage sentence.** The technical section MUST include at least one explicit "catalyst → price target" link in this format:
+7. **Voice rules** (consistent with orchestrator voice-and-conviction.md): at least one first-person declarative ("我认为突破有效因为..." / "我会在 $X 止损,因为这里是结构位的下沿") per technical block. Avoid hedged "可能/或许/估计".
+8. **Optional factor tilt one-liner**: If the stock has a lopsided factor tilt (pure momentum, pure value, high beta), append ONE sentence like "动量 +2 / 价值 -2 / 质量 +1,非对称偏动量,风格切换时会先出现回撤。" See `quant-factor-glossary.md` for factor definitions. Do NOT append a factor scorecard table in Report-Embed Mode.
+9. **MANDATORY: Event-to-price linkage sentence.** The technical section MUST include at least one explicit "catalyst → price target" link in this format:
 
    > "若 [具体催化剂] 在 [时间窗口] 内触发，预计股价在 [N 周] 内向 [$X] 运动，依据是 [技术结构 / 历史模式]。"
 
